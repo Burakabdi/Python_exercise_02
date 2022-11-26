@@ -3,7 +3,7 @@
 
 import random
 
-rand_list = [random.randint(0,100) for i in range(20)]
+rand_list = [random.randint(0,100) for i in range(0,20)]
 print(rand_list)
 
 even_number = len(list(filter(lambda x: x%2 ==0 , rand_list)))
