@@ -8,13 +8,6 @@
 
 dog_age_in_human = int(input("Input a dog's age in human years: "))
 
-# def dog_age_finder(dog_age_in_human):
-#     without_first_two_years = dog_age_in_human-2
-#     final_age_in_human = (without_first_two_years*4) + 21
-#     print(final_age_in_human)
-
-# dog_age_finder(15)
-
 if dog_age_in_human < 0:
     print("dog age must be positive!")
     exit()
@@ -24,6 +17,3 @@ else:
     dog_age_in_dog = 21 + (dog_age_in_human-2)*4
     
 print("The dog's age in dog's years is", dog_age_in_dog)
-
-
-
